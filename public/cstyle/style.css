@@ -32,15 +32,22 @@ body{
 .thumbnail{
 	background-size: 10%;
 }
+#home{
+	height:242px;
+
+}
 #main-head{
 	background:#fff url('../images/index-head.jpg') no-repeat 
-	background-size: 60%;
+	background-position: 50% 0px;
 }
-
-#blog-head{
-	background:#fff url('../images/golden-ratio.jpeg') no-repeat  center;
-	background-size: 90%
-  	
+#blog-head img{
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 20%;
+  min-height: 20%;
 }
 body #blog-body{
 	background: #fff url('../images/blog-body-bck.jpg') no-repeat  center;
