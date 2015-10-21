@@ -32,9 +32,13 @@ body{
 .thumbnail{
 	background-size: 10%;
 }
+.home-overlay{
+	background-color: rgba(44, 62, 80, 0.3);
+	background-image: url("../images/rotation-of-earth.jpg");
+}
 #home{
 	height:242px;
-
+	background-position: 50% 0px;
 }
 #main-head{
 	background:#fff url('../images/index-head.jpg') no-repeat 
